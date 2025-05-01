@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4 - JSONPlaceholder API</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .btn { background: #009688; color: #fff; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px; margin-bottom: 10px; }
+        .btn:disabled { background: #ccc; }
+        .user-card { background: #f4f4f4; margin-bottom: 10px; padding: 10px; border-radius: 4px; }
+        .input-group { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="input-group">
+        <label for="limit">Number of users to fetch:</label>
+        <input type="number" id="limit" value="5" min="1" required>
+    </div>
+    <button class="btn" id="fetchBtn">FETCH USERS</button>
+    <div id="users"></div>
+    <button class="btn" id="fetchMoreBtn" style="display:none;">FETCH MORE USERS</button>
+    <script src="main.js"></script>
+</body>
+</html> 

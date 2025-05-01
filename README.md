@@ -14,3 +14,20 @@ This project implements a client-side app to work with the public REST API (http
 4. Натисніть `FETCH MORE USERS` для завантаження наступної сторінки.
 
 Open `index.html` in your browser and follow the instructions on the page.
+
+---
+
+## Advanced Todo App (Завдання 2)
+
+### Опис / Description
+
+Сучасний todo-додаток із фільтрами, додаванням, видаленням і оновленням задач, який працює з бекендом mockapi.io.
+
+A modern todo app with filters, add, delete, and update functionality, working with a mockapi.io backend.
+
+### Як запустити / How to run
+
+1. Відкрийте `todo.html` у браузері.
+2. Додавайте, відмічайте, видаляйте задачі, фільтруйте за статусом.
+
+Open `todo.html` in your browser and use the interface to manage tasks.
